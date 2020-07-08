@@ -1,5 +1,5 @@
 body{
-  
+  background-image: url("../images/mock-up.jpg");
     background-repeat: none;
     background-position: center;
     height: 5227px;
@@ -43,46 +43,158 @@ margin: 10px 29px;
 display: flex;
 justify-content: space-between;
 }
-.hero-wrapper .left-hero{
+.hero-wrapper .text-hero{
     padding: 120px 0;
+    flex-basis: 48%;
 }
 .hero-wrapper .hero-link{
     margin: 30px 0;
     padding: 10px 0 0 5px;
     display: inline-block;
     background-color: #009ce9;
+    flex-basis: 48%;
 }
-.hero-wrapper .hero-link a{
+.hero-wrapper .text-link a{
 color: white;
 font-size: 30px;
 text-align: center;
-    background-color: #009ce9;
+ background-color: #009ce9;
 }
-.hero-wrapper .right-hero{
-
+.hero-wrapper .image-hero{
+flex-basis: 48%;
 }
-.hero-wrapper .right-hero img{
+.hero-wrapper .image-hero img{
 padding: 79px;
 }
 
-.hero-wrapper .left-hero h2{
+.hero-wrapper .text-hero h2{
     font-size: 55px;
     color: #374046;
 }
-.hero-wrapper .left-hero p{
+.hero-wrapper .text-hero p{
     padding: 20px 0 0 0;
     font-size: 30px;
     color: #384046;
 }
 #about{
 height: 444px;
+
 }
+#about .about-wrapper{
+display: flex;
+justify-content: space-between;
+padding: 36px;
+}
+.about-wrapper .about-image{
+flex-basis: 48%;
+}
+.about-wrapper .about-text{
+flex-wrap: 48%;
+
+}
+
+
+
+
 #features{
 height: 595px;
 }
-#service{
+#features .features-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
 
 }
+.features-wrapper .features-lists{
+    padding-top: 66px;
+    flex-basis: 48%;
+}
+.features-list{
+    padding: 23px;
+    margin-bottom: 6px;
+    border-left: 4px transparent;
+}
+.features-list.active{
+    border-left: solid 6px #019bed;
+    margin-bottom: 6px;
+
+}
+.features-list.active h3{
+    color: red;
+}
+
+.features-wrapper .features-list h3{
+    margin-bottom: 12px;
+    color: #6d7f89;
+    font-size: 18px;
+    
+}
+.features-wrapper .features-list p{
+    color: #919e9f;
+    
+    
+}
+.features-wrapper .features-image {
+    flex-basis: 48%;
+    padding-top: 55px;
+    padding-left: 105px;
+}
+
+}
+.features-wrapper .features-image img {
+
+}
+#service{
+    height: 530px;
+
+}
+.section-header{
+    
+    
+}
+.section-header h2{
+    font-size: 40px;
+    padding-top: 55px;
+    margin-bottom: 28px;
+    text-align: center;    
+}
+.section-header p{
+    padding-left: 18px;
+    font-size: 20px;
+    margin-bottom: 34px;
+
+}
+.section-body{
+
+}
+.card-type-1-wrapper{
+    display: flex;
+    text-align: center;
+
+    padding-top: 50px ;
+
+} 
+.card-type-1{
+    flex-basis: 25%
+    padding: 0 24px 4px 26px;
+    background-color: #faebd7a3;
+    padding-top: 46px;
+    
+    
+
+}
+.card-type-1 h3{
+    
+    margin-bottom: 20px;
+
+}
+.card-type-1 p{
+
+
+}
+
+
+
 #portfolio{
 
 }
