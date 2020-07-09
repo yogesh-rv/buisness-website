@@ -196,6 +196,26 @@ height: 595px;
 
 
 #portfolio{
+    height: 1132px;
+    
+
+
+}
+.portfolio-background{
+    background-color: white;
+}
+
+#portfolio .portfolio-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+
+}
+.portfolio-img img{
+    max-width: 342px;
+    max-height: 280px;
+    flex-basis: 20%;
+    margin-bottom: 35px;
 
 }
 #c2a{
