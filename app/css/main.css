@@ -13,7 +13,7 @@ body{
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
-    padding: 15px 32px;
+    padding: 8px 22px;
     border-radius: 4px;
     background-color: #009ce9;
     color: white;
@@ -24,40 +24,60 @@ header{
 .header-wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 19px 0px 0px 0px;
     
     font-family: Arial, Helvetica, sans-serif;
 }
 .header-wrapper .logo h1{
     font-size: 30px;
-   
+    padding: 21px 0px;   
     color: #7f8c92;
+}
+.logo{
+    flex-basis: 44%;
+}
+.navi-1{
 
 }
 .navi{
    display: flex;
+   list-style: none;
+   padding-right: 28px;
+   padding-top: 27px;
+   
+
 }
 .navi li{
-    list-style: none;
+
+}
+.navi .navi-selector{
+
 }
 .navi li a{
 display: inline-block;
-margin: 10px 29px;
+margin: 0px 8px;
+text-decoration: none;
+padding-left: 27px;
 }
 
 #hero{
     height: 585px;
+    background-image: url(../images/hero-bg.png);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
     }
 #hero .hero-wrapper{
 display: flex;
 justify-content: space-between;
 }
 .hero-wrapper .text-hero{
-    padding: 120px 0;
+    padding: 115px 0;
     flex-basis: 48%;
 }
 .hero-wrapper .hero-link{
-    margin: 30px 0;
+    margin-top: 25px
+    padding-right: 4px;
     padding: 10px 0 0 5px;
     display: inline-block;
     
@@ -67,10 +87,13 @@ justify-content: space-between;
   
 }
 .hero-wrapper .image-hero{
-flex-basis: 48%;
+
 }
 .hero-wrapper .image-hero img{
-padding: 79px;
+    display: inline-block;
+    padding-right: 82px;
+    padding-top: 63px;
+
 }
 
 .hero-wrapper .text-hero h2{
@@ -79,23 +102,58 @@ padding: 79px;
 }
 .hero-wrapper .text-hero p{
     padding: 20px 0 0 0;
-    font-size: 30px;
+    font-size: 28px;
     color: #384046;
+    margin-bottom: 29px;
 }
 #about{
 height: 444px;
 
 }
 #about .about-wrapper{
-display: flex;
-justify-content: space-between;
-padding: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+    background-color: #f7f8fa;
+    
 }
-.about-wrapper .about-image{
-flex-basis: 48%;
+.about-image {
+    flex-basis: 48%;
+    padding-top: 23px;
+    padding-bottom: 38px;
 }
-.about-wrapper .about-text{
-flex-wrap: 48%;
+.about-image img{
+    max-width: 100%;
+}
+.about-text{
+    flex-basis: 48%;
+}
+.about-text h2{
+    font-size: 36px;
+    color: #474648;
+    padding-top: 24px;
+    margin-bottom: 12px;
+
+}
+.about-text p{
+    font-size: 21px;
+    margin-bottom: 24px;
+
+}
+.about-text ul{
+    list-style: none;
+    margin-bottom: 32px;
+
+}
+.about-text li{
+    font-size: 20px;
+    margin-bottom: 14px;
+
+}
+.about-text li i{
+    color: #3bad5a;
+    padding-right: 4px;
+
 
 }
 
@@ -123,6 +181,7 @@ height: 595px;
 .features-list.active{
     border-left: solid 6px #019bed;
     margin-bottom: 6px;
+    background-color: #f7f8fa;
 
 }
 .features-list.active h3{
@@ -152,6 +211,7 @@ height: 595px;
 }
 #service{
     height: 530px;
+    background-color: #f1f1f1;
 
 }
 .section-header{
@@ -162,45 +222,59 @@ height: 595px;
     font-size: 40px;
     padding-top: 55px;
     margin-bottom: 28px;
-    text-align: center;    
+    text-align: center;
+       
 }
 .section-header p{
-    padding-left: 18px;
+    text-align: center;
     font-size: 20px;
-    margin-bottom: 34px;
-
+    padding-left: 18px;
+    color: #7c7292;
+    margin-bottom: 31px;
 }
 .section-body{
 
 }
 .card-type-1-wrapper{
     display: flex;
-    text-align: center;
-
-    padding-top: 50px ;
-
+    padding: 33px 0px;
+    
 } 
-.card-type-1{
-    flex-basis: 25%
-    padding: 0 24px 4px 26px;
-    background-color: #faebd7a3;
-    padding-top: 46px;
+.card-type-1{  
     
+    flex-basis: 25%;
+    display: inline-block;
+    margin: 0 17px;
+    background-color: white;
+    padding-left: 11px;
+    
+    
+    
+}
+.card-type-1 i{
+    font-size: 45px;
+    padding-left: 85px;
     
 
-}
+
+}    
+
 .card-type-1 h3{
+    padding-left: 50px;
+    font-size: 20px;
+    padding-bottom: 17px;
+    padding-top: 20px;
+    color: #635e59;
     
-    margin-bottom: 20px;
 
 }
 .card-type-1 p{
+    font-size: 20px;
+    color: #635e59;
+    padding-bottom: 42px;
 
 
 }
-
-
-
 #portfolio{
     height: 1132px;
     
@@ -229,7 +303,7 @@ height: 595px;
 
 }
 .c2a-overlay{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
 
 }
 .c2a-wrapper{
@@ -298,10 +372,57 @@ height: 595px;
 
 
 }
-
-
-
-
 #contact{
 
 }
+.contact-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-wrapper .contact-info,
+.contact-wrapper .contact-form {
+    flex-basis: 40%;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 40px;
+
+}
+.contact-details{
+    padding-top: 21px;
+}
+.contact-details li{
+    display: flex;
+}
+.contact-details .icon{
+    margin-right: 25px;
+    margin-top: 8px;
+}
+.contact-details .detail{
+
+}
+.contact-details .detail h2{
+    font-size: 22px;
+    margin-bottom: 7px;
+    color: #354046;
+}
+.contact-details .detail p{
+    margin-bottom: 35px;
+    color: #a7b0ad;
+}
+.contact-details .detail a{
+    
+}   
+.contact-details .icon i{
+    font-size: 23px;
+    padding-left: 11px;
+    color: #57b3ed;
+}
+.contact-map{
+    padding-top: 2px;
+}
+.contact-wrapper .contact-form{
+    flex-basis: 57%;
+    margin-left: 152px;
+
+
