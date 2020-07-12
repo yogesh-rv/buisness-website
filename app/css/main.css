@@ -1,5 +1,5 @@
 body{
-  background-image: url("../images/mock-up.jpg");
+    background-image: url("../images/mock-up.jpg"); 
     background-repeat: none;
     background-position: center;
     height: 5227px;
@@ -7,7 +7,6 @@ body{
 .container{
     width: 1106px;
     margin: auto;
-
 }
 .primary-button{
     font-size: 14px;
@@ -24,7 +23,6 @@ header{
 .header-wrapper{
     display: flex;
     justify-content: space-between;
-    
     font-family: Arial, Helvetica, sans-serif;
 }
 .header-wrapper .logo h1{
@@ -43,8 +41,6 @@ header{
    list-style: none;
    padding-right: 28px;
    padding-top: 27px;
-   
-
 }
 .navi li{
 
@@ -80,7 +76,6 @@ justify-content: space-between;
     padding-right: 4px;
     padding: 10px 0 0 5px;
     display: inline-block;
-    
     flex-basis: 48%;
 }
 .hero-wrapper .text-link a{
@@ -93,9 +88,7 @@ justify-content: space-between;
     display: inline-block;
     padding-right: 82px;
     padding-top: 63px;
-
 }
-
 .hero-wrapper .text-hero h2{
     font-size: 55px;
     color: #374046;
@@ -108,14 +101,12 @@ justify-content: space-between;
 }
 #about{
 height: 444px;
-
 }
 #about .about-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 36px;
     background-color: #f7f8fa;
-    
 }
 .about-image {
     flex-basis: 48%;
@@ -133,41 +124,29 @@ height: 444px;
     color: #474648;
     padding-top: 24px;
     margin-bottom: 12px;
-
 }
 .about-text p{
     font-size: 21px;
     margin-bottom: 24px;
-
 }
 .about-text ul{
     list-style: none;
     margin-bottom: 32px;
-
 }
 .about-text li{
     font-size: 20px;
     margin-bottom: 14px;
-
 }
 .about-text li i{
     color: #3bad5a;
     padding-right: 4px;
-
-
 }
-
-
-
-
 #features{
 height: 595px;
 }
 #features .features-wrapper{
     display: flex;
     justify-content: space-between;
-    
-
 }
 .features-wrapper .features-lists{
     padding-top: 66px;
@@ -182,29 +161,22 @@ height: 595px;
     border-left: solid 6px #019bed;
     margin-bottom: 6px;
     background-color: #f7f8fa;
-
 }
 .features-list.active h3{
     color: red;
 }
-
 .features-wrapper .features-list h3{
     margin-bottom: 12px;
     color: #6d7f89;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
 .features-wrapper .features-list p{
-    color: #919e9f;
-    
-    
+    color: #919e9f;    
 }
 .features-wrapper .features-image {
     flex-basis: 48%;
     padding-top: 55px;
     padding-left: 105px;
-}
-
 }
 .features-wrapper .features-image img {
 
@@ -212,7 +184,6 @@ height: 595px;
 #service{
     height: 530px;
     background-color: #f1f1f1;
-
 }
 .section-header{
     
@@ -223,7 +194,6 @@ height: 595px;
     padding-top: 55px;
     margin-bottom: 28px;
     text-align: center;
-       
 }
 .section-header p{
     text-align: center;
@@ -237,129 +207,100 @@ height: 595px;
 }
 .card-type-1-wrapper{
     display: flex;
-    padding: 33px 0px;
-    
+    padding: 33px 0px;    
 } 
-.card-type-1{  
-    
+.card-type-1{      
     flex-basis: 25%;
     display: inline-block;
     margin: 0 17px;
     background-color: white;
-    padding-left: 11px;
-    
-    
-    
+    padding-left: 11px;    
 }
 .card-type-1 i{
     font-size: 45px;
     padding-left: 85px;
-    
-
-
 }    
-
 .card-type-1 h3{
     padding-left: 50px;
     font-size: 20px;
     padding-bottom: 17px;
     padding-top: 20px;
     color: #635e59;
-    
-
 }
 .card-type-1 p{
     font-size: 20px;
     color: #635e59;
     padding-bottom: 42px;
-
-
 }
 #portfolio{
     height: 1132px;
-    
-
-
 }
 .portfolio-background{
     background-color: white;
 }
-
 #portfolio .portfolio-img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap ;
-
 }
 .portfolio-img img{
     max-width: 342px;
     max-height: 280px;
     flex-basis: 20%;
     margin-bottom: 35px;
-
 }
 #c2a{
     background-image: url(../images/cta-bg.jpg);
-
 }
 .c2a-overlay{
     background-color: rgba(255, 255, 255, 0.9);
-
 }
 .c2a-wrapper{
-    
     height: 262px;
     align-items: center;
     display: flex;
     justify-content: space-between;
-
 }
 .c2a-wrapper .c2a-left{
     flex-basis: 80%;
-
 }
 .c2a-left h2{
     font-size: 30px;
-
 }
 .c2a-left p{
     font-size: 20px;
     margin-top: 12px;
     color: #747a94;
-
-
 }
 .c2a-wrapper .c2a-link{
     flex-basis: 16%;
-
 }
 #team{
     height: 689px;
-    background-image: url(../images/team-bg.jpg  );
-
-
+    background-image: url(../images/team-bg.jpg  ); 
+    background-position: center;
+    background-repeat: no-repeat;
 }
+/*
+.team-overlay{
+
+    background-color: rgba(255, 255, 255, 0.7);
+}*/
 .team-header{
     padding-top: 65px;
-
 }
 .team-header h2{
     text-align: center;
     font-size: 38px;
     padding-bottom: 25px;
-
 }
 .team-header p{
     padding-left: 37px;
     font-size: 18px;
-
 }
-
 .team-wrapper{
     display: flex;
     justify-content: space-between;
-    
-
 }
 .card-type-2 {
 
@@ -369,16 +310,41 @@ height: 595px;
     max-height: 440px;
     max-width: 345px;
     margin-top: 21px;
-
-
+}
+.card-content{
+    background-color: white;
+    padding: 7px;
+    margin: 0px 17px 0px 17px;
+    position: relative;
+    top: -48px;
+}
+.card-content h3{
+    text-align: center;
+    padding-bottom: 21px;
+    padding-top: 19px;
+    font-size: 22px;
+}
+.card-content h3:after {
+    content: "" ;
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: #ccc;
+    margin: auto;
+    position: relative;
+    top: 8px;
+}
+.card-content p{
+    text-align: center;
+    padding-bottom: 11px;
 }
 #contact{
+    background-color: #efefef;
 
 }
 .contact-wrapper{
     display: flex;
     justify-content: space-between;
-
 }
 .contact-wrapper .contact-info,
 .contact-wrapper .contact-form {
@@ -386,7 +352,7 @@ height: 595px;
     box-sizing: border-box;
     padding: 30px;
     padding-top: 40px;
-
+    background-color: white;
 }
 .contact-details{
     padding-top: 21px;
@@ -419,10 +385,63 @@ height: 595px;
     color: #57b3ed;
 }
 .contact-map{
-    padding-top: 2px;
+    flex-basis: 50%;
 }
 .contact-wrapper .contact-form{
     flex-basis: 57%;
-    margin-left: 152px;
-
-
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-set{
+    display: grid;
+}
+.name{
+    flex-basis: 49%;
+}
+.name label{
+    margin-bottom: 14px;
+}
+.name input{
+    height: 34px;
+    margin-bottom: 31px;
+}    
+.email{
+    flex-basis: 49%;
+    margin-bottom: 32px;
+}
+.email input{
+}
+.subject{
+    flex-basis: 100%;
+}
+.subject input{
+    height: 37px;
+    margin-bottom: 31px;
+}    
+.subject label{
+    margin-bottom: 15px;
+}
+.message{
+    flex-basis: 100%;
+}
+.message label{
+    margin-bottom: 12px;
+}
+.message textarea{
+    height: 225px;
+    margin-bottom: 21px;
+}
+.submit{
+    margin-left: 208px;
+    padding: 14px 25px;
+}
+.submit input{
+    text-align: center;
+}
+footer{
+    height: 110px;
+    
