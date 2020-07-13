@@ -216,6 +216,22 @@ height: 595px;
     background-color: white;
     padding-left: 11px;    
 }
+.color-1 i{
+    color: deeppink;
+}
+.color-2 i{
+    color: lightskyblue ;
+
+}
+.color-3 i{
+    color: #6df16d;
+
+}
+.color-4 i{
+    color: mediumblue;
+
+}
+
 .card-type-1 i{
     font-size: 45px;
     padding-left: 85px;
@@ -281,11 +297,11 @@ height: 595px;
     background-position: center;
     background-repeat: no-repeat;
 }
-/*
 .team-overlay{
 
     background-color: rgba(255, 255, 255, 0.7);
-}*/
+    height: 689px;
+}
 .team-header{
     padding-top: 65px;
 }
@@ -444,4 +460,11 @@ height: 595px;
 }
 footer{
     height: 110px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 19px;
+    color: #707c85;
+    border: none;
+    margin-top: 59px;
+    background-color: white;
     
