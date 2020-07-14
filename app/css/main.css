@@ -1,6 +1,5 @@
 body{
-    background-image: url("../images/mock-up.jpg"); 
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     height: 5227px;
 }
@@ -54,6 +53,10 @@ margin: 0px 8px;
 text-decoration: none;
 padding-left: 27px;
 }
+.navi i{
+    position: relative;
+    left: 29px;
+}
 
 #hero{
     height: 585px;
@@ -72,7 +75,7 @@ justify-content: space-between;
     flex-basis: 48%;
 }
 .hero-wrapper .hero-link{
-    margin-top: 25px
+    margin-top: 25px;
     padding-right: 4px;
     padding: 10px 0 0 5px;
     display: inline-block;
@@ -467,4 +470,4 @@ footer{
     border: none;
     margin-top: 59px;
     background-color: white;
-    
+} 
